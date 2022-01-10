@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div class = "container">
+        <div class = "text-box">
+            <p>I'M</p>
+            <h1>KGOMOTSO TSOAI</h1>
+            <div class="row">
+                <a href="https://github.com/KgomotsoTsoai">Explore My Portfolio</a>
+                <a href="#bottom">Connect With Me <span>&#8594;</span> </a>
+                <span>You Can Explore More About My Portfolio And Professional roles below &#8595; </span>
+            </div>
+        </div>
+    
+    </div>
+
+<!--Slider-->
+<div class="slider">
+    <!-- fade css -->
+    <div class="myslide fade">
+        <div class="txt">
+            <h1>SOFTWARE DEVELOPER</h1>
+            <p>I am a talented, ambitious and hardworking individual, with skills and experience <br> in Software Development. Knowledgeable and experienced in following Database design, <br> System analysis and modelling, Software Testing, <br> and proficient in the following languages C++, C#, MySQL, PHP, JavaScript, Ionic(Angular)</p>
+        </div>
+    </div>
+    
+    <div class="myslide fade">
+        <div class="txt">
+            <h1>FACILITATOR</h1>
+            <p>As part-time I facilitate a computer technical skills program, which is very close to my heart. <br> We educate High School learners and upskill them with Technical <br> and Programming certificates. <br> Thus far I have taught Ionic(Angular), HTML/CSS, JavaScript(Typescript), etc. </p>
+        </div>
+    </div>
+    
+    <div class="myslide fade">
+        <div class="txt">
+            <h1>POWER PLATFORM FUNCTIONAL <br> CONSULTANT</h1>
+            <p>Recently, obtained Microsoft Certificates as a Power Platform Functional Consultant<br> Responsible for creating and configuring apps, automation and solutions. <br>I have expertise in the following products Power Apps, Power Automate, <br>Power BI and Power virual agents</p>
+        </div>
+    </div>
+    
+
+<!-- onclick js -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+  <div class="dotsbox" style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  <!-- /onclick js -->
+</div>
+
+<script src="jsfile.js"></script>  
+<!--End of Slider-->
+
+<!--Footer-->
+<div class="footer" id="bottom">
+
+    <div class="footer-content">
+        <div class="footer-section about">
+
+        <div class="comm">
+        <a href=""><i class="fa fa-map-marker" aria-hidden="true"></i></a> Pretoria, Gauteng, South Africa
+        </div>
+
+
+        <!--Popup-->
+<div class="popup" id="popup-1">
+<div class="overlay"></div>
+<div class="content">
+<div class="close-btn" onclick="togglePopup()">&times</div>
+<p>Feel free To Contact Me On My Email</p>
+<h3>mmatsatsi.tsoai02@gmail.com</h3>
+</div>
+</div>
+        <!--END popup-->
+
+
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/kgomotso-tsoai-7732911a4"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://www.twitter.com/kgomotso_tsoai"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/kgomotso_tsoai"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a onclick="togglePopup()"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+        </div>
+        <br>
+        &copy; Designed by Kgomotso Tsoai 
+    </div>
+
+    </div>
+
+</div>
+<!--Footer-->
+    
+</body>
+</html>
