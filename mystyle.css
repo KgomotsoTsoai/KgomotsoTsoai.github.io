@@ -389,10 +389,12 @@ img{
 @media screen and (max-width: 520px){
 
     .container {
-        height: 50vh;}
+        height: 70vh;
+    }
 
         .myslide{
-            height: 70vh;
+            height: 100vh;
+            
         }
     .text-box h1 {
         font-size: 40px;
