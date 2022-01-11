@@ -6,13 +6,12 @@
 
 html, body {
     font-family: 'poppins', sans-serif;
-    height: 100%;
-    width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.3),transparent), url(./Images/feather.jpg);
     background-size: cover;
     background-attachment: fixed;
    
 }
+
 
 .container {
     height: 70vh;
@@ -241,7 +240,7 @@ html, body {
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%);
-	bottom: 20px;
+	bottom: 0px;
 	cursor: pointer;
 }
 .dot{
@@ -383,19 +382,21 @@ img{
 	}
 
 }
-/* /5 */
 
-/* 6 */
+
 @media screen and (max-width: 520px){
 
-    .container {
-        height: 70vh;
+    .slider {
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
-        .slider{
-            height: 200vh;
-            
-        }
+    .dotsbox { 
+        display: none;
+    }
+    .container {
+
+    }
     .text-box h1 {
         font-size: 40px;
         line-height: 80px;
@@ -411,6 +412,7 @@ img{
 		margin-bottom: 20px;
 	}
 	
+    
 }
 
 
