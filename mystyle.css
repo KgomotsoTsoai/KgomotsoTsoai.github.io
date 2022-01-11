@@ -412,7 +412,16 @@ img{
 		margin-bottom: 20px;
 	}
 	
+    .popup .content {
+        width:350px;
+        height: 80px;
+    }
     
+
+    .popup .content h3 {
+        font-size: 15px;
+        font-weight: bolder;
+    }
 }
 
 
